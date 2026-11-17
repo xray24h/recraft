@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - ReCraft</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="ticker">
+        <p>FREE scrap metal charm with every order this month &nbsp;|&nbsp; Made by Jewellery Making students at Dundee and Angus College &nbsp;|&nbsp; Donate your old jewellery and give it a second life</p>
+    </div>
+
+    <div class="page-wrapper">
+
+        <header>
+            <h1>ReCraft</h1>
+
+            <nav>
+                <ul class="row nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="has-dropdown">
+                        <a href="shop.html" id="products-link">Products</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li><a href="shop.html#rings">Rings</a></li>
+                                <li><a href="shop.html#chains">Chains</a></li>
+                                <li><a href="shop.html#pendants">Pendants</a></li>
+                                <li><a href="shop.html#bracelets">Bracelets</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="page-content">
+
+            <div class="hero">
+                <video src="images/hero.mp4" poster="images/after.svg" autoplay muted loop></video>
+                <p class="note">Video is an AI visualisation of old jewellery being turned into new pieces.</p>
+                <h2>Old Jewellery. New Story.</h2>
+                <p>ReCraft is a workshop at Dundee and Angus College run by Jewellery Making students. You donate the jewellery you never wear, the students melt it down and make something new, and your initials are engraved on the finished piece.</p>
+                <a href="shop.html" class="btn">Shop Now</a>
+            </div>
+
+            <h2>New In</h2>
+
+            <div class="row cards">
+
+                <div class="column box">
+                    <div class="product-img">
+                        <img src="images/before.svg" alt="Old silver rings before melting">
+                        <img src="images/after.svg" alt="Gothic signet ring" class="after">
+                        <span class="label">Engraved initials</span>
+                    </div>
+                    <h3>Gothic Signet Ring</h3>
+                    <p>Recycled sterling silver, 6.2g</p>
+                    <p class="price">&pound;35</p>
+                    <a href="product.html" class="btn push-down">View</a>
+                </div>
+
+                <div class="column box">
+                    <div class="product-img">
+                        <img src="images/before.svg" alt="Broken chains before melting">
+                        <img src="images/after.svg" alt="Heavy curb chain" class="after">
+                        <span class="label">Engraved initials</span>
+                    </div>
+                    <h3>Heavy Curb Chain</h3>
+                    <p>Recycled sterling silver, 24.5g</p>
+                    <p class="price">&pound;60</p>
+                    <a href="product.html" class="btn push-down">View</a>
+                </div>
+
+                <div class="column box">
+                    <div class="product-img">
+                        <img src="images/before.svg" alt="Old earrings before melting">
+                        <img src="images/after.svg" alt="Cross pendant" class="after">
+                        <span class="label">Engraved initials</span>
+                    </div>
+                    <h3>Cross Pendant</h3>
+                    <p>Recycled sterling silver, 4.8g</p>
+                    <p class="price">&pound;28</p>
+                    <a href="product.html" class="btn push-down">View</a>
+                </div>
+
+            </div>
+
+            <h2>Freebies This Month</h2>
+            <p>For the first month every order comes with a small charm made by the students from metal offcuts. Each one is different and there are only a limited number, so they go on a first come first served basis.</p>
+
+            <h2>Us vs Them</h2>
+
+            <div class="row cards">
+
+                <div class="column box">
+                    <h3>ReCraft</h3>
+                    <ul>
+                        <li>Made from recycled metal</li>
+                        <li>Handmade by students in Dundee</li>
+                        <li>Donor initials engraved</li>
+                        <li>Made and sold locally</li>
+                    </ul>
+                </div>
+
+                <div class="column box them">
+                    <h3>Fast Fashion</h3>
+                    <ul>
+                        <li>New metal mined every time</li>
+                        <li>Mass produced in factories</li>
+                        <li>Breaks or tarnishes quickly</li>
+                        <li>No story behind it</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>ReCraft 2026 | Dundee and Angus College | Product images are AI visualisations</p>
+        </footer>
+
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup-inner">
+            <button class="close-btn" id="close-popup">X</button>
+            <h2>Pick a Box</h2>
+            <p>Click one box to reveal your discount.</p>
+            <div class="row cards">
+                <div class="column box gift">?</div>
+                <div class="column box gift">?</div>
+                <div class="column box gift">?</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
